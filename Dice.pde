@@ -1,7 +1,7 @@
 dice test = new dice(150,150);
 dice[] multipleDice = new dice[144];
 int i;
-int background;
+int bground;
 void setup()
 {
   size(300,300);
@@ -11,11 +11,11 @@ void setup()
 
 void draw()
 {
-  background = background + 1;
-  if (background >= 20)
+  bground = bground + 1;
+  if (bground >= 20)
   {
      background((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
-     background = 0;
+     bground = 0;
   }
   while (i<144)
   {
