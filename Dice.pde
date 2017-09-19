@@ -19,7 +19,7 @@ void draw()
   }
   while (i<144)
   {
-     dice thisIteration = new dice(((i/12)*25)+13,((((i+1)%12)+1)*25)-13);
+     dice thisIteration = new dice(((int)(i/12)*25)+13,((((i+1)%12)+1)*25)-13);
      multipleDice[i] = thisIteration;
      i = i + 1;
   }
